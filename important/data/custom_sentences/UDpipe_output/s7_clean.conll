@@ -1,0 +1,17 @@
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	TokenRange=0:2
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	TokenRange=3:6
+3	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	TokenRange=7:9
+4	aunt	aunt	NOUN	NN	Number=Sing	6	nmod:poss	_	SpaceAfter=No|TokenRange=10:14
+5	’s	's	PART	POS	_	4	case	_	TokenRange=14:16
+6	car	car	NOUN	NN	Number=Sing	0	root	_	TokenRange=17:20
+7	which	which	PRON	WDT	PronType=Rel	9	obj	_	TokenRange=21:26
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	TokenRange=27:29
+9	sold	sell	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	acl:relcl	_	TokenRange=30:34
+10	at	at	ADP	IN	_	11	case	_	TokenRange=35:37
+11	auction	auction	NOUN	NN	Number=Sing	9	obl	_	TokenRange=38:45
+12	last	last	ADJ	JJ	Degree=Pos	13	amod	_	TokenRange=46:50
+13	year	year	NOUN	NN	Number=Sing	9	obl:tmod	_	TokenRange=51:55
+14	in	in	ADP	IN	_	15	case	_	TokenRange=56:58
+15	February	February	PROPN	NNP	Number=Sing	9	obl	_	SpaceAfter=No|TokenRange=59:67
+16	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|TokenRange=67:68
+

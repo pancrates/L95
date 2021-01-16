@@ -1,0 +1,17 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = The old car broke down in the car park.
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	TokenRange=0:3
+2	old	old	ADJ	JJ	Degree=Pos	3	amod	_	TokenRange=4:7
+3	car	car	NOUN	NN	Number=Sing	4	nsubj	_	TokenRange=8:11
+4	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=12:17
+5	down	down	ADP	RP	_	4	compound:prt	_	TokenRange=18:22
+6	in	in	ADP	IN	_	9	case	_	TokenRange=23:25
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	TokenRange=26:29
+8	car	car	NOUN	NN	Number=Sing	9	compound	_	TokenRange=30:33
+9	park	park	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No|TokenRange=34:38
+10	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=38:39

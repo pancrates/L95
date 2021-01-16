@@ -1,0 +1,14 @@
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=0:3
+2	horse	horse	NOUN	NN	Number=Sing	10	nsubj	_	TokenRange=4:9
+3	which	which	PRON	WDT	PronType=Rel	6	obj	_	TokenRange=10:15
+4	Kim	Kim	PROPN	NNP	Number=Sing	6	nsubj	_	TokenRange=16:19
+5	sometimes	sometimes	ADV	RB	_	6	advmod	_	TokenRange=20:29
+6	rides	ride	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	TokenRange=30:35
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	TokenRange=36:38
+8	more	more	ADV	RBR	_	10	advmod	_	TokenRange=39:43
+9	bad	bad	ADJ	JJ	Degree=Pos	10	advmod	_	TokenRange=44:47
+10	tempered	tempered	ADJ	JJ	Degree=Pos	0	root	_	TokenRange=48:56
+11	than	than	ADP	IN	_	12	case	_	TokenRange=57:61
+12	mine	mine	PRON	PRP	_	10	obl	_	SpaceAfter=No|TokenRange=62:66
+13	.	.	PUNCT	.	_	10	punct	_	SpaceAfter=No|TokenRange=66:67
+

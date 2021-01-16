@@ -1,0 +1,47 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Coming home from very lonely places, all of us go a little mad: whether from great personal success, or just an all-night drive, we are the sole survivors of a world no one else has ever seen.
+1	Coming	come	VERB	ING	Tense=Pres|VerbForm=Part	0	root	_	TokenRange=0:6
+2	home	home	ADV	_	_	1	advmod	_	TokenRange=7:11
+3	from	from	ADP	_	_	6	case	_	TokenRange=12:16
+4	very	very	ADV	_	_	5	advmod	_	TokenRange=17:21
+5	lonely	lonely	ADJ	POS	Degree=Pos	6	amod	_	TokenRange=22:28
+6	places	place	NOUN	PL-NOM	Number=Plur	1	obl	_	SpaceAfter=No|TokenRange=29:35
+7	,	,	PUNCT	Comma	_	1	punct	_	TokenRange=35:36
+8	all	all	PRON	TOT-PL	Case=Nom	11	nsubj	_	TokenRange=37:40
+9	of	of	ADP	_	_	10	case	_	TokenRange=41:43
+10	us	we	PRON	PERS-P1PL-ACC	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	nmod	_	TokenRange=44:46
+11	go	go	VERB	INF	VerbForm=Inf	1	conj	_	TokenRange=47:49
+12	a	a	DET	IND-SG	Definite=Ind|PronType=Art	14	det	_	TokenRange=50:51
+13	little	little	ADJ	POS	Degree=Pos	14	amod	_	TokenRange=52:58
+14	mad	mad	NOUN	SG-NOM	Number=Sing	11	obj	_	SpaceAfter=No|TokenRange=59:62
+15	:	:	PUNCT	Colon	_	1	punct	_	TokenRange=62:63
+16	whether	whether	SCONJ	WH	_	29	mark	_	TokenRange=64:71
+17	from	from	ADP	_	_	20	case	_	TokenRange=72:76
+18	great	great	ADJ	POS	Degree=Pos	20	amod	_	TokenRange=77:82
+19	personal	personal	ADJ	POS	Degree=Pos	20	amod	_	TokenRange=83:91
+20	success	success	NOUN	SG-NOM	Number=Sing	29	obl	_	SpaceAfter=No|TokenRange=92:99
+21	,	,	PUNCT	Comma	_	20	punct	_	TokenRange=99:100
+22	or	or	CCONJ	_	_	26	cc	_	TokenRange=101:103
+23	just	just	ADV	_	_	26	advmod	_	TokenRange=104:108
+24	an	an	DET	IND-SG	Definite=Ind|PronType=Art	26	det	_	TokenRange=109:111
+25	all-night	all-night	ADV	_	_	26	advmod	_	TokenRange=112:121
+26	drive	drive	ADJ	POS	Degree=Pos	20	conj	_	SpaceAfter=No|TokenRange=122:127
+27	,	,	PUNCT	Comma	_	20	punct	_	TokenRange=127:128
+28	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	29	nsubj	_	TokenRange=129:131
+29	are	be	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	1	advcl	_	TokenRange=132:135
+30	the	the	DET	DEF	Definite=Def|PronType=Art	32	det	_	TokenRange=136:139
+31	sole	sole	ADJ	POS	Degree=Pos	32	amod	_	TokenRange=140:144
+32	survivors	survivor	NOUN	PL-NOM	Number=Plur	29	obj	_	TokenRange=145:154
+33	of	of	ADP	_	_	35	case	_	TokenRange=155:157
+34	a	a	DET	IND-SG	Definite=Ind|PronType=Art	35	det	_	TokenRange=158:159
+35	world	world	NOUN	SG-NOM	Number=Sing	32	nmod	_	TokenRange=160:165
+36	no	no	PRON	NEG-SG-NOM	Case=Nom	41	nsubj	_	TokenRange=166:168
+37	one	one	PRON	NEG-SG-NOM	_	36	fixed	_	TokenRange=169:172
+38	else	else	PRON	IND-SG	Case=Nom	36	fixed	_	TokenRange=173:177
+39	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	TokenRange=178:181
+40	ever	ever	ADV	_	_	41	advmod	_	TokenRange=182:186
+41	seen	see	VERB	PERF	Tense=Past|VerbForm=Part	35	acl:relcl	_	SpaceAfter=No|TokenRange=187:191
+42	.	.	PUNCT	Period	_	1	punct	_	SpacesAfter=\r\n|TokenRange=191:192
+

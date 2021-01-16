@@ -1,0 +1,12 @@
+1	At	at	ADV	RB	_	2	case	_	SpacesBefore=\s|TokenRange=1:3
+2	least	least	ADV	RBS	Degree=Sup	3	nmod	_	TokenRange=4:9
+3	two	two	NUM	CD	NumType=Card	4	nummod	_	TokenRange=10:13
+4	men	man	NOUN	NNS	Number=Plur	5	nsubj	_	TokenRange=14:17
+5	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=18:23
+6	in	in	ADV	RB	_	5	advmod	_	TokenRange=24:26
+7	and	and	CCONJ	CC	_	8	cc	_	TokenRange=27:30
+8	stole	stole	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	TokenRange=31:36
+9	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	TokenRange=37:39
+10	TV	tv	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=40:42
+11	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=42:43
+

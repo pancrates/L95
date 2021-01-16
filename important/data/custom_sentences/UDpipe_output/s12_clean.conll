@@ -1,0 +1,26 @@
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	TokenRange=0:2
+2	wo	will	AUX	MD	VerbForm=Fin	4	aux	_	SpaceAfter=No|TokenRange=3:5
+3	n’t	not	PART	RB	_	4	advmod	_	TokenRange=5:8
+4	rain	rain	VERB	VB	VerbForm=Inf	0	root	_	TokenRange=9:13
+5	but	but	CCONJ	CC	_	8	cc	_	TokenRange=14:17
+6	there	there	PRON	EX	_	8	expl	_	TokenRange=18:23
+7	might	might	AUX	MD	VerbForm=Fin	8	aux	_	TokenRange=24:29
+8	be	be	VERB	VB	VerbForm=Inf	4	conj	_	TokenRange=30:32
+9	snow	snow	NOUN	NN	Number=Sing	8	nsubj	_	TokenRange=33:37
+10	on	on	ADP	IN	_	12	case	_	TokenRange=38:40
+11	high	high	ADJ	JJ	Degree=Pos	12	amod	_	TokenRange=41:45
+12	ground	ground	NOUN	NN	Number=Sing	9	nmod	_	TokenRange=46:52
+13	if	if	SCONJ	IN	_	16	mark	_	TokenRange=53:55
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	TokenRange=56:59
+15	temperature	temperature	NOUN	NN	Number=Sing	16	nsubj	_	TokenRange=60:71
+16	stays	stay	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	TokenRange=72:77
+17	about	about	ADV	RB	_	19	advmod	_	TokenRange=78:83
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	TokenRange=84:87
+19	same	same	ADJ	JJ	Degree=Pos	16	obl	_	TokenRange=88:92
+20	over	over	ADP	IN	_	24	case	_	TokenRange=93:97
+21	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	TokenRange=98:101
+22	next	next	ADJ	JJ	Degree=Pos	24	amod	_	TokenRange=102:106
+23	24	24	NUM	CD	NumType=Card	24	nummod	_	TokenRange=107:109
+24	hours	hour	NOUN	NNS	Number=Plur	16	obl	_	SpaceAfter=No|TokenRange=110:115
+25	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=115:116
+

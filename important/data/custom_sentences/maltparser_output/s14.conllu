@@ -1,0 +1,34 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = My wildest dream is to build a POS tagger which processes 10K words per second and uses only 1MB of RAM, but it may prove too hard.
+1	My	I	PRON	P1SG-GEN	Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	root	_	_
+2	wildest	wild	ADJ	SPL	Degree=Sup	3	amod	_	_
+3	dream	dream	NOUN	SG-NOM	Number=Sing	1	appos	_	_
+4	is	be	AUX	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+5	to	to	PART	_	_	4	nsubj	_	_
+6	build	build	VERB	INF	VerbForm=Inf	5	root	_	_
+7	a	a	DET	IND-SG	Definite=Ind|PronType=Art	6	obj	_	_
+8	POS	Po	NOUN	SG-NOM	Number=Sing	7	compound	_	_
+9	tagger	tagger	NOUN	SG-NOM	Number=Sing	8	nmod:npmod	_	_
+10	which	which	PRON	WH-REL	PronType=Int	26	nsubj	_	_
+11	processes	process	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+12	10K	10k	PROPN	SG-NOM	Number=Sing	13	compound	_	_
+13	words	word	NOUN	PL-NOM	Number=Plur	26	nsubj	_	_
+14	per	per	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	_
+15	second	second	ADJ	ORD	Degree=Pos|NumType=Ord	26	punct	_	_
+16	and	and	CCONJ	_	_	26	cc	_	_
+17	uses	use	VERB	PRES	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+18	only	only	ADV	_	_	21	cc:preconj	_	_
+19	1MB	1mb	X	NOM	_	21	case	_	_
+20	of	of	ADP	_	_	19	fixed	_	_
+21	RAM	Ram	PROPN	SG-NOM	Number=Sing	26	nsubj	_	_
+22	,	,	PUNCT	Comma	_	26	punct	_	_
+23	but	but	CCONJ	_	_	26	punct	_	_
+24	it	it	PRON	PERS-SG	_	26	advmod	_	_
+25	may	may	AUX	PRES-AUX	VerbForm=Fin	26	aux	_	_
+26	prove	prive	VERB	INF	VerbForm=Inf	9	acl:relcl	_	_
+27	too	too	ADV	_	_	28	advmod	_	_
+28	hard	hard	ADV	_	Degree=Pos	26	ccomp	_	_
+29	.	.	PUNCT	Period	_	7	compound	_	_
+

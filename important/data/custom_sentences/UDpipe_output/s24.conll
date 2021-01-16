@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Instead of constantly worrying about funding, the faculty and students can focus on their project, with the exception of sponsors’ weeks, when they have to convince companies to start or continue their support.
+1	Instead	instead	ADV	RB	_	4	mark	_	TokenRange=0:7
+2	of	of	SCONJ	IN	_	1	fixed	_	TokenRange=8:10
+3	constantly	constantly	ADV	RB	_	4	advmod	_	TokenRange=11:21
+4	worrying	worry	VERB	VBG	VerbForm=Ger	13	advcl	_	TokenRange=22:30
+5	about	about	ADP	IN	_	6	case	_	TokenRange=31:36
+6	funding	funding	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No|TokenRange=37:44
+7	,	,	PUNCT	,	_	13	punct	_	TokenRange=44:45
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	TokenRange=46:49
+9	faculty	faculty	NOUN	NN	Number=Sing	13	nsubj	_	TokenRange=50:57
+10	and	and	CCONJ	CC	_	11	cc	_	TokenRange=58:61
+11	students	student	NOUN	NNS	Number=Plur	9	conj	_	TokenRange=62:70
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	TokenRange=71:74
+13	focus	focus	VERB	VB	VerbForm=Inf	0	root	_	TokenRange=75:80
+14	on	on	ADP	IN	_	16	case	_	TokenRange=81:83
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	TokenRange=84:89
+16	project	project	NOUN	NN	Number=Sing	13	obl	_	SpaceAfter=No|TokenRange=90:97
+17	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s|TokenRange=97:98
+18	with	with	ADP	IN	_	20	case	_	TokenRange=100:104
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	TokenRange=105:108
+20	exception	exception	NOUN	NN	Number=Sing	13	obl	_	TokenRange=109:118
+21	of	of	ADP	IN	_	24	case	_	TokenRange=119:121
+22	sponsors	sponsor	NOUN	NNS	Number=Plur	24	nmod:poss	_	SpaceAfter=No|TokenRange=122:130
+23	’	's	PART	POS	_	22	case	_	TokenRange=130:131
+24	weeks	week	NOUN	NNS	Number=Plur	20	nmod	_	SpaceAfter=No|TokenRange=132:137
+25	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s|TokenRange=137:138
+26	when	when	ADV	WRB	PronType=Int	28	mark	_	TokenRange=140:144
+27	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	TokenRange=145:149
+28	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	TokenRange=150:154
+29	to	to	PART	TO	_	30	mark	_	TokenRange=155:157
+30	convince	convince	VERB	VB	VerbForm=Inf	28	xcomp	_	TokenRange=158:166
+31	companies	company	NOUN	NNS	Number=Plur	30	obj	_	TokenRange=167:176
+32	to	to	PART	TO	_	33	mark	_	TokenRange=177:179
+33	start	start	VERB	VB	VerbForm=Inf	30	xcomp	_	TokenRange=180:185
+34	or	or	CCONJ	CC	_	35	cc	_	TokenRange=186:188
+35	continue	continue	VERB	VB	VerbForm=Inf	33	conj	_	TokenRange=189:197
+36	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	37	nmod:poss	_	TokenRange=198:203
+37	support	support	NOUN	NN	Number=Sing	33	obj	_	SpaceAfter=No|TokenRange=204:211
+38	.	.	PUNCT	.	_	13	punct	_	SpaceAfter=No|TokenRange=211:212

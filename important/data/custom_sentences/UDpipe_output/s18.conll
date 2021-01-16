@@ -1,0 +1,63 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = The slightly simplified version of the Viterbi algorithm that we present takes as input a single HMM and a sequence of observed words O= (o1, o2, ... oT) and returns the most probable state/tag sequence Q= (q1, q2, qT) together with its probability.
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	TokenRange=0:3
+2	slightly	slightly	ADV	RB	_	3	advmod	_	TokenRange=4:12
+3	simplified	simplify	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	TokenRange=13:23
+4	version	version	NOUN	NN	Number=Sing	12	nsubj	_	TokenRange=24:31
+5	of	of	ADP	IN	_	7	case	_	TokenRange=32:34
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	TokenRange=35:38
+7	Viterbi	Viterbi	PROPN	NNP	Number=Sing	4	nmod	_	TokenRange=39:46
+8	algorithm	algorithm	NOUN	NN	Number=Sing	7	flat	_	TokenRange=47:56
+9	that	that	PRON	WDT	PronType=Rel	11	obj	_	TokenRange=57:61
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	TokenRange=62:64
+11	present	present	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	TokenRange=65:72
+12	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=73:78
+13	as	as	ADP	IN	_	14	case	_	TokenRange=79:81
+14	input	input	NOUN	NN	Number=Sing	12	obl	_	TokenRange=82:87
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	TokenRange=88:89
+16	single	single	ADJ	JJ	Degree=Pos	17	amod	_	TokenRange=90:96
+17	HMM	hmm	NOUN	NN	Number=Sing	12	obj	_	TokenRange=97:100
+18	and	and	CCONJ	CC	_	20	cc	_	TokenRange=101:104
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	TokenRange=105:106
+20	sequence	sequence	NOUN	NN	Number=Sing	17	conj	_	TokenRange=107:115
+21	of	of	ADP	IN	_	23	case	_	TokenRange=116:118
+22	observed	observe	VERB	VBN	Tense=Past|VerbForm=Part	23	amod	_	TokenRange=119:127
+23	words	word	NOUN	NNS	Number=Plur	20	nmod	_	TokenRange=128:133
+24	O	o	NOUN	NN	Number=Sing	23	appos	_	SpaceAfter=No|TokenRange=134:135
+25	=	=	SYM	SYM	_	23	case	_	TokenRange=135:136
+26	(	(	PUNCT	-LRB-	_	27	punct	_	SpaceAfter=No|TokenRange=137:138
+27	o1	o1	NUM	CD	NumType=Card	23	appos	_	SpaceAfter=No|TokenRange=138:140
+28	,	,	PUNCT	,	_	29	punct	_	TokenRange=140:141
+29	o2	o2	NUM	CD	NumType=Card	27	conj	_	SpaceAfter=No|TokenRange=142:144
+30	,	,	PUNCT	,	_	32	punct	_	TokenRange=144:145
+31	...	...	PUNCT	,	_	27	punct	_	TokenRange=146:149
+32	oT	ot	NOUN	NN	Number=Sing	27	conj	_	SpaceAfter=No|TokenRange=150:152
+33	)	)	PUNCT	-RRB-	_	27	punct	_	TokenRange=152:153
+34	and	and	CCONJ	CC	_	35	cc	_	TokenRange=154:157
+35	returns	return	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	TokenRange=158:165
+36	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	TokenRange=166:169
+37	most	most	ADV	RBS	_	38	advmod	_	TokenRange=170:174
+38	probable	probable	ADJ	JJ	Degree=Pos	42	amod	_	TokenRange=175:183
+39	state	state	NOUN	NN	Number=Sing	42	compound	_	SpaceAfter=No|TokenRange=184:189
+40	/	/	PUNCT	,	_	41	cc	_	SpaceAfter=No|TokenRange=189:190
+41	tag	tag	NOUN	NN	Number=Sing	39	conj	_	TokenRange=190:193
+42	sequence	sequence	NOUN	NN	Number=Sing	35	obj	_	TokenRange=194:202
+43	Q	q	NOUN	NN	Number=Sing	35	obj	_	SpaceAfter=No|TokenRange=203:204
+44	=	=	SYM	SYM	_	42	acl	_	TokenRange=204:205
+45	(	(	PUNCT	-LRB-	_	46	punct	_	SpaceAfter=No|TokenRange=206:207
+46	q1	q1	NUM	CD	NumType=Card	43	appos	_	SpaceAfter=No|TokenRange=207:209
+47	,	,	PUNCT	,	_	48	punct	_	TokenRange=209:210
+48	q2	q2	NUM	CD	NumType=Card	46	conj	_	SpaceAfter=No|TokenRange=211:213
+49	,	,	PUNCT	,	_	50	punct	_	TokenRange=213:214
+50	qT	qt	NOUN	NN	Number=Sing	46	conj	_	SpaceAfter=No|TokenRange=215:217
+51	)	)	PUNCT	-RRB-	_	46	punct	_	TokenRange=217:218
+52	together	together	ADV	RB	_	55	advmod	_	TokenRange=219:227
+53	with	with	ADP	IN	_	55	case	_	TokenRange=228:232
+54	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	55	nmod:poss	_	TokenRange=233:236
+55	probability	probability	NOUN	NN	Number=Sing	35	obl	_	SpaceAfter=No|TokenRange=237:248
+56	.	.	PUNCT	.	_	12	punct	_	SpaceAfter=No|TokenRange=248:249

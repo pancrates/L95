@@ -1,0 +1,32 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Letters delivered on time by old-fashioned means are increasingly rare, so it is as well that that is not the only option available.
+1	Letters	letter	NOUN	S	Number=Plur	12	nsubj	_	TokenRange=0:7
+2	delivered	deliver	VERB	V	Tense=Past|VerbForm=Part	1	acl	_	TokenRange=8:17
+3	on	on	ADP	E	_	4	case	_	TokenRange=18:20
+4	time	time	NOUN	S	Number=Sing	2	obl	_	TokenRange=21:25
+5	by	by	ADP	E	_	9	case	_	TokenRange=26:28
+6	old	old	ADJ	A	Degree=Pos	9	amod	_	SpaceAfter=No|TokenRange=29:32
+7	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No|TokenRange=32:33
+8	fashioned	fashion	VERB	V	Tense=Past|VerbForm=Part	9	acl	_	TokenRange=33:42
+9	means	mean	NOUN	S	Number=Sing	2	obl	_	TokenRange=43:48
+10	are	be	AUX	V	Mood=Ind|Number=Plur|Tense=Pres|VerbForm=Fin	12	cop	_	TokenRange=49:52
+11	increasingly	increasingly	ADV	B	_	12	advmod	_	TokenRange=53:65
+12	rare	rare	ADJ	A	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=66:70
+13	,	,	PUNCT	FF	_	12	punct	_	TokenRange=70:71
+14	so	so	ADV	B	_	16	advmod	_	TokenRange=72:74
+15	it	it	PRON	PE	Number=Sing|Person=3|PronType=Prs	16	nsubj	_	TokenRange=75:77
+16	is	be	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	TokenRange=78:80
+17	as	as	ADV	B	_	16	advmod	_	TokenRange=81:83
+18	well	well	ADV	B	_	17	fixed	_	TokenRange=84:88
+19	that	that	SCONJ	CS	_	25	mark	_	TokenRange=89:93
+20	that	that	PRON	PD	PronType=Dem	25	nsubj	_	TokenRange=94:98
+21	is	be	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	TokenRange=99:101
+22	not	not	PART	PART	Polarity=Neg	25	advmod	_	TokenRange=102:105
+23	the	the	DET	RD	Definite=Def|PronType=Art	25	det	_	TokenRange=106:109
+24	only	only	ADJ	A	Degree=Pos	25	amod	_	TokenRange=110:114
+25	option	option	NOUN	S	Number=Sing	16	ccomp	_	TokenRange=115:121
+26	available	available	ADJ	A	Degree=Pos	25	amod	_	SpaceAfter=No|TokenRange=122:131
+27	.	.	PUNCT	FS	_	12	punct	_	TokenRange=131:132
+

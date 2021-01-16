@@ -1,0 +1,16 @@
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=0:3
+2	veterans	veteran	NOUN	NNS	Number=Plur	14	nsubj	_	TokenRange=4:12
+3	who	who	PRON	WP	PronType=Rel	5	obj	_	TokenRange=13:16
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	TokenRange=17:18
+5	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	acl:relcl	_	TokenRange=19:26
+6	that	that	SCONJ	IN	_	9	mark	_	TokenRange=27:31
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	TokenRange=32:34
+8	would	would	AUX	MD	VerbForm=Fin	9	aux	_	TokenRange=35:40
+9	meet	meet	VERB	VB	VerbForm=Inf	5	ccomp	_	TokenRange=41:45
+10	at	at	ADP	IN	_	12	case	_	TokenRange=46:48
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	TokenRange=49:52
+12	reunion	reunion	NOUN	NN	Number=Sing	9	obl	_	TokenRange=53:60
+13	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	_	TokenRange=61:65
+14	dead	dead	ADJ	JJ	Degree=Pos	0	root	_	SpaceAfter=No|TokenRange=66:70
+15	.	.	PUNCT	.	_	14	punct	_	SpaceAfter=No|TokenRange=70:71
+

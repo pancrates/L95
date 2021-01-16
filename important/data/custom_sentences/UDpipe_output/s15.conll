@@ -1,0 +1,60 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = English also has many words of more or less unique function, including interjections (oh, ah), negatives (no, not), politeness markers (please, thank you), and the existential ‘there’ (there are horses but not unicorns) among others.
+1	English	English	PROPN	NNP	Number=Sing	3	nsubj	_	SpacesAfter=\s\s|TokenRange=0:7
+2	also	also	ADV	RB	_	3	advmod	_	SpacesAfter=\s\s|TokenRange=9:13
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\s|TokenRange=15:18
+4	many	many	ADJ	JJ	Degree=Pos	5	amod	_	SpacesAfter=\s\s|TokenRange=20:24
+5	words	word	NOUN	NNS	Number=Plur	3	obj	_	SpacesAfter=\s\s|TokenRange=26:31
+6	of	of	ADP	IN	_	11	case	_	SpacesAfter=\s\s|TokenRange=33:35
+7	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	SpacesAfter=\s\s|TokenRange=37:41
+8	or	or	CCONJ	CC	_	9	cc	_	SpacesAfter=\s\s|TokenRange=43:45
+9	less	less	ADV	RBR	Degree=Cmp	7	conj	_	SpacesAfter=\s\s|TokenRange=47:51
+10	unique	unique	ADJ	JJ	Degree=Pos	11	amod	_	SpacesAfter=\s\s|TokenRange=53:59
+11	function	function	NOUN	NN	Number=Sing	5	nmod	_	SpaceAfter=No|TokenRange=61:69
+12	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s|TokenRange=69:70
+13	including	include	VERB	VBG	VerbForm=Ger	14	case	_	TokenRange=72:81
+14	interjections	interjection	NOUN	NNS	Number=Plur	5	nmod	_	TokenRange=82:95
+15	(	(	PUNCT	-LRB-	_	18	punct	_	SpaceAfter=No|TokenRange=96:97
+16	oh	oh	INTJ	UH	_	14	parataxis	_	SpaceAfter=No|TokenRange=97:99
+17	,	,	PUNCT	,	_	18	punct	_	TokenRange=99:100
+18	ah	ah	INTJ	UH	_	14	conj	_	SpaceAfter=No|TokenRange=101:103
+19	)	)	PUNCT	-RRB-	_	18	punct	_	SpaceAfter=No|TokenRange=103:104
+20	,	,	PUNCT	,	_	21	punct	_	TokenRange=104:105
+21	negatives	negative	NOUN	NNS	Number=Plur	14	conj	_	TokenRange=106:115
+22	(	(	PUNCT	-LRB-	_	23	punct	_	SpaceAfter=No|TokenRange=116:117
+23	no	no	INTJ	UH	_	21	parataxis	_	SpaceAfter=No|TokenRange=117:119
+24	,	,	PUNCT	,	_	25	punct	_	TokenRange=119:120
+25	not	not	PART	RB	_	23	conj	_	SpaceAfter=No|TokenRange=121:124
+26	)	)	PUNCT	-RRB-	_	25	punct	_	SpaceAfter=No|TokenRange=124:125
+27	,	,	PUNCT	,	_	29	punct	_	TokenRange=125:126
+28	politeness	politeness	NOUN	NN	Number=Sing	29	compound	_	TokenRange=127:137
+29	markers	marker	NOUN	NNS	Number=Plur	14	conj	_	TokenRange=138:145
+30	(	(	PUNCT	-LRB-	_	33	punct	_	SpaceAfter=No|TokenRange=146:147
+31	please	please	INTJ	UH	_	33	discourse	_	SpaceAfter=No|TokenRange=147:153
+32	,	,	PUNCT	,	_	33	punct	_	TokenRange=153:154
+33	thank	thank	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin	29	parataxis	_	TokenRange=155:160
+34	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	33	obj	_	SpaceAfter=No|TokenRange=161:164
+35	)	)	PUNCT	-RRB-	_	33	punct	_	SpaceAfter=No|TokenRange=164:165
+36	,	,	PUNCT	,	_	41	punct	_	TokenRange=165:166
+37	and	and	CCONJ	CC	_	41	cc	_	TokenRange=167:170
+38	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	TokenRange=171:174
+39	existential	existential	ADJ	JJ	Degree=Pos	41	amod	_	TokenRange=175:186
+40	‘	‘	PUNCT	``	_	41	punct	_	SpaceAfter=No|TokenRange=187:188
+41	there	there	ADV	RB	PronType=Dem	14	conj	_	SpaceAfter=No|TokenRange=188:193
+42	’	'	PUNCT	''	_	41	punct	_	TokenRange=193:194
+43	(	(	PUNCT	-LRB-	_	45	punct	_	SpaceAfter=No|TokenRange=195:196
+44	there	there	PRON	EX	_	45	expl	_	TokenRange=196:201
+45	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	41	parataxis	_	TokenRange=202:205
+46	horses	horse	NOUN	NNS	Number=Plur	45	nsubj	_	TokenRange=206:212
+47	but	but	CCONJ	CC	_	49	cc	_	TokenRange=213:216
+48	not	not	ADV	RB	_	49	advmod	_	TokenRange=217:220
+49	unicorns	unicorn	NOUN	NNS	Number=Plur	46	conj	_	SpaceAfter=No|TokenRange=221:229
+50	)	)	PUNCT	-RRB-	_	45	punct	_	TokenRange=229:230
+51	among	among	ADP	IN	_	52	case	_	TokenRange=231:236
+52	others	other	NOUN	NNS	Number=Plur	45	obl	_	SpaceAfter=No|TokenRange=237:243
+53	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=243:244

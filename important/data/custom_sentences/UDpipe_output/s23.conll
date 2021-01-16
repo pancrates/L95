@@ -1,0 +1,48 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = But far fewer people fully understand how the Media Lab operates, fits into MIT, and encourages such a creative environment; about half of the anniversary celebration’s program focused on simply defining what the Media Lab is.
+1	But	but	CCONJ	CC	_	6	cc	_	SpacesAfter=\s\s|TokenRange=0:3
+2	far	far	ADV	RB	Degree=Pos	3	advmod	_	SpacesAfter=\s\s|TokenRange=5:8
+3	fewer	fewer	ADJ	JJR	Degree=Cmp	4	amod	_	SpacesAfter=\s\s|TokenRange=10:15
+4	people	people	NOUN	NNS	Number=Plur	6	nsubj	_	SpacesAfter=\s\s|TokenRange=17:23
+5	fully	fully	ADV	RB	_	6	advmod	_	SpacesAfter=\s\s|TokenRange=25:30
+6	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\s|TokenRange=32:42
+7	how	how	ADV	WRB	PronType=Int	11	advmod	_	SpacesAfter=\s\s|TokenRange=44:47
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	SpacesAfter=\s\s|TokenRange=49:52
+9	Media	Media	PROPN	NNP	Number=Sing	10	compound	_	SpacesAfter=\s\s|TokenRange=54:59
+10	Lab	Lab	PROPN	NNP	Number=Sing	11	nsubj	_	SpacesAfter=\s\s|TokenRange=61:64
+11	operates	operate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	SpaceAfter=No|TokenRange=66:74
+12	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s|TokenRange=74:75
+13	fits	fit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	TokenRange=77:81
+14	into	into	ADP	IN	_	15	case	_	TokenRange=82:86
+15	MIT	MIT	PROPN	NNP	Number=Sing	13	obl	_	SpaceAfter=No|TokenRange=87:90
+16	,	,	PUNCT	,	_	18	punct	_	TokenRange=90:91
+17	and	and	CCONJ	CC	_	18	cc	_	TokenRange=92:95
+18	encourages	encourage	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	TokenRange=96:106
+19	such	such	DET	PDT	_	22	det:predet	_	TokenRange=107:111
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	TokenRange=112:113
+21	creative	creative	ADJ	JJ	Degree=Pos	22	amod	_	TokenRange=114:122
+22	environment	environment	NOUN	NN	Number=Sing	18	obj	_	SpaceAfter=No|TokenRange=123:134
+23	;	;	PUNCT	,	_	6	punct	_	SpacesAfter=\s\s|TokenRange=134:135
+24	about	about	ADV	RB	_	25	advmod	_	TokenRange=137:142
+25	half	half	NOUN	NN	Number=Sing	32	nsubj	_	TokenRange=143:147
+26	of	of	ADP	IN	_	31	case	_	TokenRange=148:150
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	TokenRange=151:154
+28	anniversary	anniversary	NOUN	NN	Number=Sing	29	compound	_	TokenRange=155:166
+29	celebration	celebration	NOUN	NN	Number=Sing	31	nmod:poss	_	SpaceAfter=No|TokenRange=167:178
+30	’s	's	PART	POS	_	29	case	_	TokenRange=178:180
+31	program	program	NOUN	NN	Number=Sing	25	nmod	_	TokenRange=181:188
+32	focused	focus	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	TokenRange=189:196
+33	on	on	SCONJ	IN	_	35	mark	_	TokenRange=197:199
+34	simply	simply	ADV	RB	_	35	advmod	_	TokenRange=200:206
+35	defining	define	VERB	VBG	VerbForm=Ger	32	advcl	_	TokenRange=207:215
+36	what	what	PRON	WP	PronType=Int	35	obj	_	TokenRange=216:220
+37	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	TokenRange=221:224
+38	Media	Media	PROPN	NNP	Number=Sing	39	compound	_	TokenRange=225:230
+39	Lab	Lab	PROPN	NNP	Number=Sing	36	nsubj	_	TokenRange=231:234
+40	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	SpaceAfter=No|TokenRange=235:237
+41	.	.	PUNCT	.	_	6	punct	_	SpaceAfter=No|TokenRange=237:238

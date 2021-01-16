@@ -1,0 +1,62 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = The doctors are warning that the NHS cannot make the£20bn of savings by 2014 that ministers expect, while simultaneously undertaking a huge reorganisation that will see England’s 152 primary care trusts (PCTs) abolished and consortiums of GPs assume responsibility for the commissioning of services for patients.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	SpacesBefore=\s|TokenRange=1:4
+2	doctors	doctor	NOUN	NNS	Number=Plur	4	nsubj	_	TokenRange=5:12
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	TokenRange=13:16
+4	warning	warn	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	TokenRange=17:24
+5	that	that	SCONJ	IN	_	10	mark	_	TokenRange=25:29
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	TokenRange=30:33
+7	NHS	NHS	PROPN	NNP	Number=Sing	10	nsubj	_	TokenRange=34:37
+8	can	can	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No|TokenRange=38:41
+9	not	not	PART	RB	_	10	advmod	_	TokenRange=41:44
+10	make	make	VERB	VB	VerbForm=Inf	4	ccomp	_	TokenRange=45:49
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	SpaceAfter=No|TokenRange=50:53
+12	£	£	SYM	$	_	10	obj	_	SpaceAfter=No|TokenRange=53:54
+13	20	20	NUM	CD	NumType=Card	12	compound	_	SpaceAfter=No|TokenRange=54:56
+14	bn	bn	NUM	CD	NumType=Card	12	nummod	_	TokenRange=56:58
+15	of	of	ADP	IN	_	16	case	_	TokenRange=59:61
+16	savings	saving	NOUN	NNS	Number=Plur	12	nmod	_	TokenRange=62:69
+17	by	by	ADP	IN	_	18	case	_	TokenRange=70:72
+18	2014	2014	NUM	CD	NumType=Card	10	obl	_	TokenRange=73:77
+19	that	that	PRON	WDT	PronType=Rel	21	obj	_	TokenRange=78:82
+20	ministers	minister	NOUN	NNS	Number=Plur	21	nsubj	_	TokenRange=83:92
+21	expect	expect	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	SpaceAfter=No|TokenRange=93:99
+22	,	,	PUNCT	,	_	10	punct	_	TokenRange=99:100
+23	while	while	SCONJ	IN	_	25	mark	_	TokenRange=101:106
+24	simultaneously	simultaneously	ADV	RB	_	25	advmod	_	TokenRange=107:121
+25	undertaking	undertake	VERB	VBG	VerbForm=Ger	10	advcl	_	TokenRange=122:133
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	TokenRange=134:135
+27	huge	huge	ADJ	JJ	Degree=Pos	28	amod	_	TokenRange=136:140
+28	reorganisation	reorganisation	NOUN	NN	Number=Sing	25	obj	_	TokenRange=141:155
+29	that	that	PRON	WDT	PronType=Rel	31	nsubj	_	TokenRange=156:160
+30	will	will	AUX	MD	VerbForm=Fin	31	aux	_	TokenRange=161:165
+31	see	see	VERB	VB	VerbForm=Inf	28	acl:relcl	_	TokenRange=166:169
+32	England	England	PROPN	NNP	Number=Sing	37	nmod:poss	_	SpaceAfter=No|TokenRange=170:177
+33	’s	's	PART	POS	_	32	case	_	TokenRange=177:179
+34	152	152	NUM	CD	NumType=Card	37	nummod	_	TokenRange=180:183
+35	primary	primary	ADJ	JJ	Degree=Pos	36	amod	_	TokenRange=184:191
+36	care	care	NOUN	NN	Number=Sing	37	compound	_	TokenRange=192:196
+37	trusts	trust	NOUN	NNS	Number=Plur	31	obj	_	TokenRange=197:203
+38	(	(	PUNCT	-LRB-	_	39	punct	_	SpaceAfter=No|TokenRange=204:205
+39	PCTs	pct	NOUN	NNS	Number=Plur	37	appos	_	SpaceAfter=No|TokenRange=205:209
+40	)	)	PUNCT	-RRB-	_	39	punct	_	TokenRange=209:210
+41	abolished	abolish	VERB	VBN	Tense=Past|VerbForm=Part	28	acl	_	TokenRange=211:220
+42	and	and	CCONJ	CC	_	46	cc	_	TokenRange=221:224
+43	consortiums	consortium	NOUN	NNS	Number=Plur	46	nsubj	_	TokenRange=225:236
+44	of	of	ADP	IN	_	45	case	_	TokenRange=237:239
+45	GPs	GPS	PROPN	NNPS	Number=Plur	43	nmod	_	TokenRange=240:243
+46	assume	assume	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	conj	_	TokenRange=244:250
+47	responsibility	responsibility	NOUN	NN	Number=Sing	46	obj	_	TokenRange=251:265
+48	for	for	ADP	IN	_	50	case	_	TokenRange=266:269
+49	the	the	DET	DT	Definite=Def|PronType=Art	50	det	_	TokenRange=270:273
+50	commissioning	commissioning	NOUN	NN	Number=Sing	47	nmod	_	TokenRange=274:287
+51	of	of	ADP	IN	_	52	case	_	TokenRange=288:290
+52	services	service	NOUN	NNS	Number=Plur	50	nmod	_	TokenRange=291:299
+53	for	for	ADP	IN	_	54	case	_	TokenRange=300:303
+54	patients	patient	NOUN	NNS	Number=Plur	52	nmod	_	SpaceAfter=No|TokenRange=304:312
+55	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=312:313

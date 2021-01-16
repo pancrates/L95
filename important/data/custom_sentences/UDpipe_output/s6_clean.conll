@@ -1,0 +1,16 @@
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=0:3
+2	horse	horse	NOUN	NN	Number=Sing	14	nsubj	_	TokenRange=4:9
+3	as	as	ADV	RB	_	7	cc	_	TokenRange=10:12
+4	well	well	ADV	RB	Degree=Pos	3	fixed	_	TokenRange=13:17
+5	as	as	ADP	IN	_	3	fixed	_	TokenRange=18:20
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	TokenRange=21:24
+7	rabbits	rabbit	NOUN	NNS	Number=Plur	2	conj	_	TokenRange=25:32
+8	which	which	PRON	WDT	PronType=Rel	10	obj	_	TokenRange=33:38
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	TokenRange=39:41
+10	wanted	want	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	acl:relcl	_	TokenRange=42:48
+11	to	to	PART	TO	_	12	mark	_	TokenRange=49:51
+12	eat	eat	VERB	VB	VerbForm=Inf	10	xcomp	_	TokenRange=52:55
+13	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	TokenRange=56:60
+14	escaped	escape	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No|TokenRange=61:68
+15	.	.	PUNCT	.	_	14	punct	_	SpaceAfter=No|TokenRange=68:69
+

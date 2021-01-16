@@ -1,0 +1,11 @@
+1	Kim	Kim	PROPN	NNP	Number=Sing	5	nsubj	_	TokenRange=0:3
+2	and	and	CCONJ	CC	_	3	cc	_	TokenRange=4:7
+3	Sandy	Sandy	PROPN	NNP	Number=Sing	1	conj	_	TokenRange=8:13
+4	both	both	CCONJ	CC	_	1	cc:preconj	_	TokenRange=14:18
+5	broke	break	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=19:24
+6	up	up	ADP	RP	_	5	compound:prt	_	TokenRange=25:27
+7	with	with	ADP	IN	_	9	case	_	TokenRange=28:32
+8	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	_	TokenRange=33:38
+9	partners	partner	NOUN	NNS	Number=Plur	5	obl	_	SpaceAfter=No|TokenRange=39:47
+10	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No|TokenRange=47:48
+

@@ -1,0 +1,45 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = An MoD spokesman said: “Surveys of Astute have now been completed and she will proceed to Faslane under her own power.
+1	An	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	SpacesAfter=\s\s|TokenRange=0:2
+2	MoD	MoD	PROPN	NNP	Number=Sing	3	compound	_	SpacesAfter=\s\s|TokenRange=4:7
+3	spokesman	spokesman	NOUN	NN	Number=Sing	4	nsubj	_	SpacesAfter=\s\s|TokenRange=9:18
+4	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=20:24
+5	:	:	PUNCT	:	_	4	punct	_	SpacesAfter=\s\s|TokenRange=24:25
+6	“	"	PUNCT	``	_	4	punct	_	SpaceAfter=No|TokenRange=27:28
+7	Surveys	survey	NOUN	NNS	Number=Plur	13	nsubj:pass	_	SpacesAfter=\s\s|TokenRange=28:35
+8	of	of	ADP	IN	_	9	case	_	SpacesAfter=\s\s|TokenRange=37:39
+9	Astute	Astute	PROPN	NNP	Number=Sing	7	nmod	_	SpacesAfter=\s\s|TokenRange=41:47
+10	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	SpacesAfter=\s\s|TokenRange=49:53
+11	now	now	ADV	RB	_	13	advmod	_	SpacesAfter=\s\s|TokenRange=55:58
+12	been	be	AUX	VBN	Tense=Past|VerbForm=Part	13	aux:pass	_	SpacesAfter=\s\s|TokenRange=60:64
+13	completed	complete	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	ccomp	_	TokenRange=66:75
+14	and	and	CCONJ	CC	_	17	cc	_	TokenRange=76:79
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	TokenRange=80:83
+16	will	will	AUX	MD	VerbForm=Fin	17	aux	_	TokenRange=84:88
+17	proceed	proceed	VERB	VB	VerbForm=Inf	13	conj	_	TokenRange=89:96
+18	to	to	ADP	IN	_	19	case	_	TokenRange=97:99
+19	Faslane	Faslane	PROPN	NNP	Number=Sing	17	obl	_	TokenRange=100:107
+20	under	under	ADP	IN	_	23	case	_	TokenRange=108:113
+21	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	_	TokenRange=114:117
+22	own	own	ADJ	JJ	Degree=Pos	23	amod	_	TokenRange=118:121
+23	power	power	NOUN	NN	Number=Sing	17	obl	_	SpaceAfter=No|TokenRange=122:127
+24	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s|TokenRange=127:128
+
+# sent_id = 2
+# text = She is being escorted by tugs and HMS Shoreham.”
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	TokenRange=130:133
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	TokenRange=134:136
+3	being	be	AUX	VBG	VerbForm=Ger	4	aux:pass	_	TokenRange=137:142
+4	escorted	escort	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	TokenRange=143:151
+5	by	by	ADP	IN	_	6	case	_	TokenRange=152:154
+6	tugs	tug	NOUN	NNS	Number=Plur	4	obl	_	TokenRange=155:159
+7	and	and	CCONJ	CC	_	9	cc	_	TokenRange=160:163
+8	HMS	HMS	PROPN	NNP	Number=Sing	9	compound	_	TokenRange=164:167
+9	Shoreham	Shoreham	PROPN	NNP	Number=Sing	6	conj	_	SpaceAfter=No|TokenRange=168:176
+10	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No|TokenRange=176:177
+11	”	"	PUNCT	''	_	4	punct	_	SpaceAfter=No|TokenRange=177:178

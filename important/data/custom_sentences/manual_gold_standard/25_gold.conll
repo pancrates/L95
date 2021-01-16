@@ -1,0 +1,60 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = The doctors are warning that the NHS cannot make the £20bn of savings by 2014 that ministers expect, while simultaneously undertaking a huge re-organisation that will see England's 152 primary care trusts (PCTs) abolished and consortiums of GPs assume responsibility for the commissioning of services for patients.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=0:3
+2	doctors	doctor	NOUN	NNS	Number=Plur	4	nsubj	_	TokenRange=4:11
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	TokenRange=12:15
+4	warning	warn	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	TokenRange=16:23
+5	that	that	SCONJ	IN	_	10	mark	_	TokenRange=24:28
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	TokenRange=29:32
+7	NHS	N	NOUN	NN	Number=Sing	10	nsubj	_	TokenRange=33:36
+8	can	can	AUX	MD	VerbForm=Fin	10	aux	_	SpaceAfter=No|TokenRange=37:40
+9	not	not	PART	RB	_	10	advmod	_	TokenRange=40:43
+10	make	make	VERB	VB	VerbForm=Inf	4	ccomp	_	TokenRange=44:48
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	TokenRange=49:52
+12	£	£	SYM	$	_	10	obj	_	SpaceAfter=No|TokenRange=53:54
+13	20	20	NUM	CD	NumType=Card	14	nummod	_	SpaceAfter=No|TokenRange=54:56
+14	bn	bn	NUM	CD	NumType=Card	12	nummod	_	TokenRange=56:58
+15	of	of	ADP	IN	_	16	case	_	TokenRange=59:61
+16	savings	savings	NOUN	NNS	Number=Plur	12	nmod	_	TokenRange=62:69
+17	by	by	ADP	IN	_	18	case	_	TokenRange=70:72
+18	2014	2014	NUM	CD	NumType=Card	10	obl	_	TokenRange=73:77
+19	that	that	SCONJ	IN	_	21	mark	_	TokenRange=78:82
+20	ministers	ministers	NOUN	NNS	Number=Plur	21	nsubj	_	TokenRange=83:92
+21	expect	expect	VERB	VB	VerbForm=Inf	10	ccomp	_	SpaceAfter=No|TokenRange=93:99
+22	,	,	PUNCT	,	_	21	punct	_	TokenRange=99:100
+23	while	while	SCONJ	IN	_	25	mark	_	TokenRange=101:106
+24	simultaneously	simultaneously	ADV	RB	_	25	advmod	_	TokenRange=107:121
+25	undertaking	undertake	VERB	VBG	VerbForm=Ger	21	advcl	_	TokenRange=122:133
+26	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	TokenRange=134:135
+27	huge	huge	ADJ	JJ	Degree=Pos	28	amod	_	TokenRange=136:140
+28	re-organisation	re-organisation	NOUN	NN	Number=Sing	25	obj	_	TokenRange=141:156
+29	that	that	PRON	WDT	PronType=Rel	31	nsubj	_	TokenRange=157:161
+30	will	will	AUX	MD	VerbForm=Fin	31	aux	_	TokenRange=162:166
+31	see	see	VERB	VB	VerbForm=Inf	28	acl:relcl	_	TokenRange=167:170
+32	England	England	PROPN	NNP	Number=Sing	37	nmod:poss	_	SpaceAfter=No|TokenRange=171:178
+33	's	's	PART	POS	_	32	case	_	TokenRange=178:180
+34	152	152	NUM	CD	NumType=Card	37	nummod	_	TokenRange=181:184
+35	primary	primary	ADJ	JJ	Degree=Pos	36	amod	_	TokenRange=185:192
+36	care	care	NOUN	NN	Number=Sing	37	compound	_	TokenRange=193:197
+37	trusts	trust	NOUN	NNS	Number=Plur	46	nsubj	_	TokenRange=198:204
+38	(	(	PUNCT	-LRB-	_	39	punct	_	SpaceAfter=No|TokenRange=205:206
+39	PCTs	PCTs	NOUN	NNS	Number=Plur	37	appos	_	SpaceAfter=No|TokenRange=206:210
+40	)	)	PUNCT	-RRB-	_	39	punct	_	TokenRange=210:211
+41	abolished	abolish	VERB	VBN	Tense=Past|VerbForm=Part	37	acl	_	TokenRange=212:221
+42	and	and	CCONJ	CC	_	43	cc	_	TokenRange=222:225
+43	consortiums	consortiums	NOUN	NNS	Number=Plur	37	conj	_	TokenRange=226:237
+44	of	of	ADP	IN	_	45	case	_	TokenRange=238:240
+45	GPs	GPs	PROPN	NNPS	Number=Plur	43	nmod	_	TokenRange=241:244
+46	assume	assume	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	ccomp	_	TokenRange=245:251
+47	responsibility	responsibility	NOUN	NN	Number=Sing	46	obj	_	TokenRange=252:266
+48	for	for	ADP	IN	_	50	case	_	TokenRange=267:270
+49	the	the	DET	DT	Definite=Def|PronType=Art	50	det	_	TokenRange=271:274
+50	commissioning	commissioning	NOUN	NN	Number=Sing	47	nmod	_	TokenRange=275:288
+51	of	of	ADP	IN	_	52	case	_	TokenRange=289:291
+52	services	service	NOUN	NNS	Number=Plur	50	nmod	_	TokenRange=292:300
+53	for	for	ADP	IN	_	54	case	_	TokenRange=301:304
+54	patients	patients	NOUN	NNS	Number=Plur	52	nmod	_	SpaceAfter=No|TokenRange=305:313
+55	.	.	PUNCT	.	_	4	punct	_	TokenRange=313:314
+

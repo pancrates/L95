@@ -1,0 +1,47 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Coming home from very lonely places, all of us go a little mad: whether from great personal success, or just an all-night drive, we are the sole survivors of a world no one else has ever seen.
+1	Coming	come	VERB	ING	Tense=Pres|VerbForm=Part	14	cc	_	_
+2	home	home	ADV	_	_	5	punct	_	_
+3	from	from	ADP	_	_	5	punct	_	_
+4	very	very	ADV	_	_	5	advmod	_	_
+5	lonely	lonely	ADJ	POS	Degree=Pos	11	mark	_	_
+6	places	place	NOUN	PL-NOM	Number=Plur	11	nsubj	_	_
+7	,	,	PUNCT	Comma	_	11	punct	_	_
+8	all	all	PRON	TOT-PL	Case=Nom	10	case	_	_
+9	of	of	ADP	_	_	8	fixed	_	_
+10	us	we	PRON	PERS-P1PL-ACC	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obl	_	_
+11	go	go	VERB	INF	VerbForm=Inf	14	advcl	_	_
+12	a	a	DET	IND-SG	Definite=Ind|PronType=Art	14	reparandum	_	_
+13	little	little	ADJ	POS	Degree=Pos	14	advmod	_	_
+14	mad	mad	NOUN	SG-NOM	Number=Sing	0	root	_	_
+15	:	:	PUNCT	Colon	_	14	punct	_	_
+16	whether	whether	SCONJ	WH	_	18	advmod	_	_
+17	from	from	ADP	_	_	16	fixed	_	_
+18	great	great	ADJ	POS	Degree=Pos	26	advmod	_	_
+19	personal	personal	ADJ	POS	Degree=Pos	26	advmod	_	_
+20	success	success	NOUN	SG-NOM	Number=Sing	26	obl:npmod	_	_
+21	,	,	PUNCT	Comma	_	26	punct	_	_
+22	or	or	CCONJ	_	_	26	cc	_	_
+23	just	just	ADV	_	_	26	advmod	_	_
+24	an	an	DET	IND-SG	Definite=Ind|PronType=Art	26	case	_	_
+25	all-night	all-night	ADV	_	_	26	advmod	_	_
+26	drive	drive	ADJ	POS	Degree=Pos	41	advmod	_	_
+27	,	,	PUNCT	Comma	_	41	punct	_	_
+28	we	we	PRON	PERS-P1PL-NOM	Case=Nom|Number=Plur|Person=1|PronType=Prs	41	nsubj:pass	_	_
+29	are	be	VERB	PRES	Mood=Ind|Tense=Pres|VerbForm=Fin	41	aux:pass	_	_
+30	the	the	DET	DEF	Definite=Def|PronType=Art	41	mark	_	_
+31	sole	sole	ADJ	POS	Degree=Pos	41	advmod	_	_
+32	survivors	survivor	NOUN	PL-NOM	Number=Plur	41	nsubj	_	_
+33	of	of	ADP	_	_	41	punct	_	_
+34	a	a	DET	IND-SG	Definite=Ind|PronType=Art	41	mark	_	_
+35	world	world	NOUN	SG-NOM	Number=Sing	41	nsubj	_	_
+36	no	no	PRON	NEG-SG-NOM	Case=Nom	41	advmod	_	_
+37	one	one	PRON	NEG-SG-NOM	_	41	punct	_	_
+38	else	else	PRON	IND-SG	Case=Nom	41	nsubj	_	_
+39	has	have	AUX	PRES-AUX	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	aux	_	_
+40	ever	ever	ADV	_	_	41	advmod	_	_
+41	seen	see	VERB	PERF	Tense=Past|VerbForm=Part	14	parataxis	_	_
+42	.	.	PUNCT	Period	_	41	root	_	_
+
