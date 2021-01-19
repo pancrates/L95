@@ -1,7 +1,0 @@
-Parsing time: 00:00:03 (3449 ms)
-Finished: Fri Jan 15 17:06:23 GMT 2021
-
-real	0m3.832s
-user	0m10.115s
-sys	0m0.208s
-
