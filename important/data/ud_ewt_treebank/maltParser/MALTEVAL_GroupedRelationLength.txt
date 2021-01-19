@@ -1,0 +1,18 @@
+Evaluation arguments: --GroupBy GroupedRelationLength -g L95/important/data/ud_ewt_treebank/gold_ewt-ud-test.conllx -s L95/important/data/ud_ewt_treebank/maltParser/malt-out.conllx
+====================================================
+Gold:   L95/important/data/ud_ewt_treebank/gold_ewt-ud-test.conllx
+Parsed: L95/important/data/ud_ewt_treebank/maltParser/malt-out.conllx
+====================================================
+GroupBy-> GroupedRelationLength
+Metric-> LAS
+
+====================================================
+
+parseraccuracy /    treebankaccuracy /    GroupedRelationLength
+---------------------------------------------------------------
+0.822               0.832                 1
+0.758               0.778                 2
+0.653               0.634                 3-6
+0.471               0.425                 7-...
+0.695               0.744                 to_root
+

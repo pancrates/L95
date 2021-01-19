@@ -1,0 +1,48 @@
+Evaluation arguments: --GroupBy Deprel --Metric UAS -g L95/important/data/custom_sentences/manual_gold_standard/manual_combined.conllx -s L95/important/data/custom_sentences/stanford_output/combined_stanford_clean.conllx
+====================================================
+Gold:   L95/important/data/custom_sentences/manual_gold_standard/manual_combined.conllx
+Parsed: L95/important/data/custom_sentences/stanford_output/combined_stanford_clean.conllx
+====================================================
+GroupBy-> Deprel
+Metric-> UAS
+
+====================================================
+
+parseraccuracy /    treebankaccuracy /    Deprel
+----------------------------------------------------
+1                   0.4                   acl
+0.75                0.75                  acl:relcl
+0.6                 0.5                   advcl
+0.952               0.909                 advmod
+0.909               0.909                 amod
+-                   0.5                   appos
+0.923               0.917                 aux
+1                   1                     aux:pass
+0.946               0.974                 case
+0.667               0.714                 cc
+0.75                0.286                 ccomp
+0.786               0.9                   compound
+0.615               0.643                 conj
+0.5                 0.8                   cop
+0                   -                     csubj
+0.667               -                     dep
+0.913               0.913                 det
+1                   -                     det:predet
+0                   0                     expl
+0.75                0.6                   fixed
+-                   0                     flat
+0.667               1                     iobj
+0.778               0.75                  mark
+0.8                 0.875                 nmod
+1                   1                     nmod:poss
+0.704               0.741                 nsubj
+1                   1                     nsubj:pass
+1                   1                     nummod
+0.643               0.667                 obj
+0.867               0.789                 obl
+1                   -                     obl:npmod
+0.25                0.667                 parataxis
+0.647               0.647                 punct
+0.909               0.909                 root
+1                   1                     xcomp
+

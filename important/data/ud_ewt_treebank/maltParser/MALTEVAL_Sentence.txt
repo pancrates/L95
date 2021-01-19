@@ -1,0 +1,16 @@
+Evaluation arguments: --GroupBy Sentence -g L95/important/data/ud_ewt_treebank/gold_ewt-ud-test.conllx -s L95/important/data/ud_ewt_treebank/maltParser/malt-out.conllx
+====================================================
+Gold:   L95/important/data/ud_ewt_treebank/gold_ewt-ud-test.conllx
+Parsed: L95/important/data/ud_ewt_treebank/maltParser/malt-out.conllx
+====================================================
+GroupBy-> Sentence
+Metric-> LAS
+
+====================================================
+
+accuracy /    exactmatch /    sentencelength /    Sentence
+-----------------------------------------------------------
+0.746         0.314           12.083              Row mean
+2077          2077            2077                Row count
+-----------------------------------------------------------
+

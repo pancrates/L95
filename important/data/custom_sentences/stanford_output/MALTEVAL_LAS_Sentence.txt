@@ -1,0 +1,16 @@
+Evaluation arguments: --GroupBy Sentence -g L95/important/data/custom_sentences/manual_gold_standard/manual_combined.conllx -s L95/important/data/custom_sentences/stanford_output/combined_stanford_clean.conllx
+====================================================
+Gold:   L95/important/data/custom_sentences/manual_gold_standard/manual_combined.conllx
+Parsed: L95/important/data/custom_sentences/stanford_output/combined_stanford_clean.conllx
+====================================================
+GroupBy-> Sentence
+Metric-> LAS
+
+====================================================
+
+accuracy /    exactmatch /    sentencelength /    Sentence
+-----------------------------------------------------------
+0.764         0.182           31.091              Row mean
+11            11              11                  Row count
+-----------------------------------------------------------
+
